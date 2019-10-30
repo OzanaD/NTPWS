@@ -1,0 +1,286 @@
+body{
+	font-family: 'Kalam', cursive;
+	margin: 0;
+	font-size: 16px;
+	background-color: #111;
+	color:white;
+}
+
+.slonovi {
+	background-image: url("img/slonovi.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #111;
+	position: relative;
+	height: 500px;
+	text-align:center;
+	color:white;
+	font-size:6em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: orangered;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 3px inset orangered;
+	border-radius: 5px;
+}
+
+figcaption {
+	font-size: 90%;
+}
+
+img{
+	width:100%;
+}
+
+h1 {
+	margin: 0.5em;
+	font-size: 2.5em;
+}
+
+h2 {
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+main a {
+	text-decoration: none;
+	color: orangered;
+}
+
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+
+p#quote{
+	text-align:center;
+	font-size:1.5em;
+	width:70%;
+	margin: 2em auto;
+	color:orangered;
+}
+
+b{
+	color:orangered;
+}
+
+.news img {
+	width: 15%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: orangered;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dashed white;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid white;
+}
+#gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+hr {
+	margin: 1em;
+	border: 1px dashed white;
+	clear: both;
+}
+
+#contact {
+	margin: 1em auto;
+	width: 80%;
+	text-align:center;
+}
+
+form{
+	border: 2px solid white;
+	border-radius:5px;
+	text-align:center;
+	padding:1em;
+	margin-top:2em;
+}
+
+label {
+	display: block;
+	color: orangered;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid white;
+	border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	background-color: #111;
+	color:white;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: orangered;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+	margin:0 auto;
+}
+
+video {
+	margin: 0 1em 1em 1em;
+	float: left;
+}
+
+#donate figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border:1px solid orangered;
+	height:100%;
+}
+#donate figcaption {
+	font-size: 80%;
+	text-align: center;
+}
+#donate img {
+	height: 200px;
+}
+
+#donate form{
+	border: none;
+	padding:1em;
+	margin-top:1em;
+	text-align:left;
+}
+#donate select{
+	width: 15%;
+    padding: 12px;
+    border: 2px solid white;
+	border-radius: 3px;
+	margin-bottom:15px;
+	background-color: #111;
+	color:white;
+}
+
+#donate input[type=submit] {
+    display: inline;
+	background-color: orangered;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 15%;
+}
+
+footer {
+	padding: 0.1em;
+	clear: both;
+	background-color:orangered;
+}
+footer p {
+	text-align: center;
+	margin: 0.5em;
+	color:white;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+	#gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+	input[type=text], input[type=email], select, textarea {
+    width: 70%;
+	}
+	#donate figure{
+		width:40%;
+	}
+	#donate img {
+	height: 300px;
+	}
+	#donate select{
+	width: 30%;
+	}
+	#donate input[type=submit] {
+	width: 20%;
+	}
+	video {
+	width:90%;
+	}
+	
+
+}
+
+@media screen and (max-width: 500px) {
+	#donate figure{
+		width:90%;
+	}
+}
